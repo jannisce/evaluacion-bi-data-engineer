@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Implementación del esquema Snowflake para el Data Warehouse de Bank Customer Churn 
+Implementación del esquema Snowflake para el Data Warehouse de Bank Customer Churn
 
 ## Instrucciones de Ejecución
 
