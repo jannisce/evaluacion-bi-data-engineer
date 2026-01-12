@@ -1,0 +1,9 @@
+country_id,language_id,relation_id
+1,1,1
+2,2,2
+3,3,3
+3,4,4
+3,5,5
+4,6,7
+5,3,8
+4,3,6

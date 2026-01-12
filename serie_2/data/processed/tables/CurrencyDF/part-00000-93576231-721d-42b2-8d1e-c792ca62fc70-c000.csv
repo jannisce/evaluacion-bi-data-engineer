@@ -1,0 +1,6 @@
+currency_code,currency_id,currency_name,currency_symbol
+AUD,5,Australian dollar,$
+CAD,4,Canadian dollar,$
+EUR,1,Euro,€
+INR,3,Indian rupee,₹
+MXN,2,Mexican peso,$

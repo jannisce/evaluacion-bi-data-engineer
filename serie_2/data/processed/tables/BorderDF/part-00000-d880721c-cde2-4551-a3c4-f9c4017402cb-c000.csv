@@ -1,0 +1,13 @@
+border_country_code,border_id,country_code,country_id
+LVA,1,EST,1
+RUS,2,EST,1
+BLZ,3,MEX,2
+GTM,4,MEX,2
+BGD,6,IND,3
+USA,5,MEX,2
+CHN,9,IND,3
+BTN,7,IND,3
+MMR,8,IND,3
+PAK,11,IND,3
+USA,12,CAN,4
+NPL,10,IND,3
