@@ -6,6 +6,31 @@
 USE BankChurnDW;
 GO
 
+-- Crear tabla staging para datos en bruto (raw)
+
+-- Eliminar tabla staging si existe
+IF OBJECT_ID('staging.CustomerChurn_Raw', 'U') IS NOT NULL
+    DROP TABLE staging.CustomerChurn_Raw;
+GO
+
+-- Crear tabla staging para datos en bruto (raw)
+CREATE TABLE staging.CustomerChurn_Raw
+(
+    customer_id         NVARCHAR(50) NULL,
+    credit_score        NVARCHAR(50) NULL,
+    country             NVARCHAR(100) NULL,
+    gender              NVARCHAR(50) NULL,
+    age                 NVARCHAR(50) NULL,
+    tenure              NVARCHAR(50) NULL,
+    balance             NVARCHAR(50) NULL,
+    products_number     NVARCHAR(50) NULL,
+    credit_card         NVARCHAR(50) NULL,
+    active_member       NVARCHAR(50) NULL,
+    estimated_salary    NVARCHAR(50) NULL,
+    churn               NVARCHAR(50) NULL
+);
+GO
+
 -- Eliminar tabla staging si existe
 IF OBJECT_ID('staging.CustomerChurn', 'U') IS NOT NULL
     DROP TABLE staging.CustomerChurn;
